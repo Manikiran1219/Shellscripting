@@ -21,7 +21,7 @@ else
 echo "your are running with root access"
 fi
 
-VALIDATE() &>>$LOG_FILE
+VALIDATE()
 {
    if [ $1 -eq 0 ] &>>$LOG_FILE
 then
